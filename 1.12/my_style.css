@@ -1,0 +1,50 @@
+body {
+    font-family: 'Amatic SC';font-size: 22px;
+}
+
+.disable-indent{
+	padding-inline-start: 0px;
+}
+
+.side-margin{
+	width: fit-content;
+	margin: auto;
+}
+
+.spacing{
+	margin-top: 20px;
+	margin-bottom: 16px;
+}
+
+ul.inline-children li {
+	display: inline-block;
+}
+
+ul.blocky-color li {
+	width: 200px;
+	height: 400px;
+}
+
+ul.small-padding li {
+	border: 4px solid white;
+}
+
+.color1{
+	background-color: #2C302E;
+}
+
+.color2{
+	background-color: #474A48;
+}
+
+.color3{
+	background-color: #909590;
+}
+
+.color4{
+	background-color: #9AE19D;
+}
+
+.color5{
+	background-color: #537A5A;
+}
