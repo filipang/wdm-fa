@@ -1,0 +1,71 @@
+
+
+body{
+	background-color: bisque;
+}
+
+.board-size-x{
+	width: 246px;
+}
+
+.top-margin{
+	margin-top: 50px;
+}
+
+.thin-border{
+	border : solid;
+	border-width: 2px;
+}
+
+.nopadding{
+	padding: 0px;
+}
+
+.back-to-top {
+    float: right;
+    position: relative;
+    top: -20px;
+}
+
+.float-right {
+	float: right;
+}
+
+.margin-left-player{
+	margin-left: auto;
+	margin-right: 25px;
+}
+
+.margin-right-player{
+	margin-right: auto;
+	margin-left: 25px;
+}
+
+.margin-left-auto{
+	margin-left: auto;
+}
+
+.margin-right-auto{
+	margin-right: auto;
+}
+
+.small-margin-left{
+	margin-left: 15px;
+}
+
+.small-margin-right{
+	margin-right: 15px;
+}
+
+.small-padding-left{
+	padding-left: 15px;
+}
+
+.small-padding-right{
+	padding-right: 15px;
+}
+
+#wrapper {
+    width: 70%;
+    margin: 0 auto;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Filid Angheyer's Ultimate Tic Tac Toe</title>
+</head>
+<body>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/style.css">
+
+	<div id="showturn" class="top-margin container-fluid mx-auto board-size-x text-center">PLAYER 1'S TURN</div>
+	<div class = 'top-margin' style="display:flex; flex-direction: row; justify-content: right; align-items: right">
+		<div class='text-right margin-left-player player1'><p data-editable>PLAYER 1</p><br><span>Score: <span id="score_p1">0</span></span></div>
+		<div class='board-size-x' id='board' turn = "0">
+		    <div class='row'>
+		        <div class='col-md-4 thin-border nopadding'><img class="square" src="../media/tic_tac_toe_blank.png" id='c0r0'></div>
+		        <div class='col-md-4 thin-border nopadding'><img class="square" src="../media/tic_tac_toe_blank.png" id='c1r0'></div>
+		        <div class='col-md-4 thin-border nopadding'><img class="square" src="../media/tic_tac_toe_blank.png" id='c2r0'></div>
+		    </div>
+		    <div class='row'>
+		        <div class='col-md-4 thin-border nopadding'><img class="square" src="../media/tic_tac_toe_blank.png" id='c0r1'></div>
+		        <div class='col-md-4 thin-border nopadding'><img class="square" src="../media/tic_tac_toe_blank.png" id='c1r1'></div>
+		        <div class='col-md-4 thin-border nopadding'><img class="square" src="../media/tic_tac_toe_blank.png" id='c2r1'></div>
+		    </div>
+		    <div class='row'>
+		        <div class='col-md-4 thin-border nopadding'><img class="square" src="../media/tic_tac_toe_x.jpg"     id='c0r2'></div>
+		        <div class='col-md-4 thin-border nopadding'><img class="square" src="../media/tic_tac_toe_0.png"     id='c1r2'></div>
+		        <div class='col-md-4 thin-border nopadding'><img class="square" src="../media/tic_tac_toe_blank.png" id='c2r2'></div>
+		    </div>
+		</div>
+		<div class='text-left margin-right-player player2'><p data-editable>PLAYER 2</p><br><span>Score: <span id="score_p2">0</span></span></div>
+	</div>
+	<div class = 'top-margin'  style="display:flex; flex-direction: row; justify-content: right; align-items: right">
+		<img class = 'reset_game_btn margin-left-auto small-padding-right' src="../media/reset_game_btn.png">
+		<img class = 'reset_score_btn margin-right-auto small-margin-left small-margin-left' src="../media/reset_score_btn.png">
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<script src="../js/clicks.js"></script>
+</body>
+</html> 
