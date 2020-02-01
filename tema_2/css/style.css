@@ -65,6 +65,13 @@ body{
 	padding-right: 15px;
 }
 
+.middle{
+	display:flex;
+	flex-direction: row; 
+	justify-content: right;
+	align-items: right
+}
+
 #wrapper {
     width: 70%;
     margin: 0 auto;
