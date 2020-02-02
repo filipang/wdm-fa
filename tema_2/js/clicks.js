@@ -156,12 +156,12 @@ function onclicksquare(){
 		}
 		else{
 			if(($("#board").attr('turn')==="1" && $("#board").attr('is-p1-x')==="1")||($("#board").attr('turn')==="0" && $("#board").attr('is-p1-x')==="0")){
-				$("#showturn").text($("div.player1 p").text() + ' won! '  + ($("#board").attr('turn')==="0"?"0":"X"));
+				$("#showturn").text($("div.player1 p").text() + ' won! - '  + ($("#board").attr('turn')==="0"?"0":"X"));
 				var score = Number($('#score_p1').text()) + 1;
 				$('#score_p1').text(score);
 			}
 			else{
-				$("#showturn").text($("div.player2 p").text() + ' won!'  + ($("#board").attr('turn')==="0"?"0":"X"));
+				$("#showturn").text($("div.player2 p").text() + ' won! - '  + ($("#board").attr('turn')==="0"?"0":"X"));
 				var score = Number($('#score_p2').text()) + 1;
 				$('#score_p2').text(score);
 			}
