@@ -72,6 +72,15 @@ body{
 	align-items: right
 }
 
+.cover-image:before {
+    position: absolute;
+    content: '';
+    background: rgba(0,0,0, 0.5); /*partially transparent image*/
+    width: 200px;
+    height: 200px;
+    pointer-events: none;
+}
+
 #wrapper {
     width: 70%;
     margin: 0 auto;
